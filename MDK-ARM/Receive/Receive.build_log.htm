@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 2, 3, LIC=DSNXV-PIW70-XC9J0-BY6YL-SA4NN-ENDAZ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.33.0.0
+Toolchain Path:  D:\Program Fails\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+E:\1.HET_Project\Panasonic\接收模块的程序（测试）\Receive V2.0\MDK-ARM\Receive.uvprojx
+Project File Date:  04/27/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Program Fails\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Receive'
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling main.c...
+compiling RF_A7205.c...
+..\Src\RF_A7205.c(526): warning:  #177-D: variable "tmp"  was declared but never referenced
+      Uint8 recv, tmp;
+..\Src\RF_A7205.c(611): warning:  #550-D: variable "fb"  was set but never used
+  	Uint8 fb,fbcf,fcd,vb,vbcf,vcb,vccf;
+..\Src\RF_A7205.c(611): warning:  #550-D: variable "fcd"  was set but never used
+  	Uint8 fb,fbcf,fcd,vb,vbcf,vcb,vccf;
+..\Src\RF_A7205.c(611): warning:  #550-D: variable "vb"  was set but never used
+  	Uint8 fb,fbcf,fcd,vb,vbcf,vcb,vccf;
+..\Src\RF_A7205.c(611): warning:  #550-D: variable "vcb"  was set but never used
+  	Uint8 fb,fbcf,fcd,vb,vbcf,vcb,vccf;
+..\Src\RF_A7205.c(612): warning:  #550-D: variable "rh"  was set but never used
+  	Uint8 rh,rl;
+..\Src\RF_A7205.c(612): warning:  #550-D: variable "rl"  was set but never used
+  	Uint8 rh,rl;
+..\Src\RF_A7205.c: 7 warnings, 0 errors
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_exti.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_usart.c...
+linking...
+Program Size: Code=7012 RO-data=344 RW-data=28 ZI-data=1188  
+FromELF: creating hex file...
+"Receive\Receive.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Receive
+  D:\Program Fails\Keil_v5\pack\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Program Fails\Keil_v5\pack\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>
